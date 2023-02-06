@@ -5,7 +5,7 @@ export class KFCService {
   api: string;
 
   constructor() {
-    this.api = 'https://kfc-crazy-thursday.vercel.app/api/index';
+    this.api = 'https://kfc.yuki.sh/api/index';
   }
 
   async getMessage(): Promise<string> {

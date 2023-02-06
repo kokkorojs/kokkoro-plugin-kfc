@@ -13,3 +13,7 @@ npm i kokkoro-plugin-kfc
 ```
 
 有关键字 `v50` 就会自动发送段子
+
+## 鸣谢
+
+https://github.com/whitescent/KFC-Crazy-Thursday

@@ -1,6 +1,6 @@
 {
   "name": "kokkoro-plugin-kfc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "肯德基疯狂星期四段子",
   "main": "lib/index.js",
   "scripts": {
