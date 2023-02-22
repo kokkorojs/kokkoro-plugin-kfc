@@ -16,7 +16,7 @@ const service = new Service(plugin);
 
 plugin
   .version(pkg.version)
-  .schedule(process.env.KFC_DATE ?? '0 0 12 ? * 5', async () => {
+  .schedule(process.env.KFC_DATE ?? '0 0 12 * * 4', async () => {
     await service.autoSend();
   })
 
