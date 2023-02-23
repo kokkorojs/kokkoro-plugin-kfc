@@ -36,7 +36,7 @@ export class Service {
         const uin = uins[i];
         const info = bot.gl.get(uin)!;
         const { group_id } = info;
-        const { apply, auto_send } = bot.profile.getOption(group_id, 'message');
+        const { apply, auto_send } = bot.profile.getOption(group_id, 'kfc');
 
         if (apply && auto_send) {
           sendQueue.push(bot.sendGroupMsg(group_id, message));
